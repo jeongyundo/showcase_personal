@@ -2,7 +2,7 @@
 $(document).on("click", ".allow-focus", function (element) {
     element.stopPropagation();
 });
-$("#main-div").children().show();
+
 // On page resize, visuals should get rearranged according to the page
 $(document).ready(function () {
 
